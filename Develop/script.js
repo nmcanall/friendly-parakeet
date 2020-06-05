@@ -47,7 +47,6 @@ var generatePassword = function() {
   // Build password
   while(password.length < length) {
     type = getRandomInt(4); // Returns 0, 1, 2, or 3
-    debugger;
 
     // If type = 0 and lowercase is allowed, pick a lowercase
     if(type === 0 && lowercaseChoice) {
@@ -80,7 +79,7 @@ var generatePassword = function() {
 }
 
 function getRandomInt(max) {
-  return (Math.floor(Math.random() * Math.floor(max)) + 1);
+  return (Math.floor(Math.random() * Math.floor(max)));
 }
 
 
