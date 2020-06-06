@@ -18,4 +18,4 @@ GitHub Repository: https://github.com/nmcanall/friendly-parakeet <br/>
 Deployed Site: https://nmcanall.github.io/friendly-parakeet/
 
 ## Preview
-![screensot of site](./develop/screenshot.PNG)
+![screensot of site](./Develop/screenshot.PNG)
